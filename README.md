@@ -13,3 +13,9 @@
   ```bash
   go run main.go
   ```
+
+1. Generate test CSV file (target folder: `/documents`)
+
+  ```bash
+  go run generator.go
+  ```
