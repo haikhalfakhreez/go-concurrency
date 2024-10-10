@@ -9,12 +9,12 @@ import (
 )
 
 const (
+	folder   = "documents"
 	fileName = "users.csv"
 	rowsNum  = 100000
 )
 
 func main() {
-	folder := "documents"
 	err := os.MkdirAll(folder, os.ModePerm)
 	if err != nil {
 		fmt.Println("Error creating folder:", err)
