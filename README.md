@@ -8,6 +8,12 @@
     brew install go
     ```
 
+1. Install dependencies
+
+    ```bash
+    go get .
+    ```
+
 1. Run application
 
     ```bash
